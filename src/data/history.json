@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Tech Intern",
+      "organisation": "Fittr",
+      "startDate": "Jun, 2024",
+      "endDate": "Jul,2024",
+      "experiences": ["AWS Cloud Monitoring", "Deployment to Cloud Infrastructure"],
+      "imageSrc": "./assets/history/fittr.png"
+    },
+    {
+      "role": "Tech Intern",
+      "organisation": "Fittr",
+      "startDate": "Jun, 2024",
+      "endDate": "Jul,2024",
+      "experiences": ["AWS Cloud Monitoring", "Deployment to Cloud Infrastructure"],
+      "imageSrc": "./assets/history/fittr.png"
+    }
+  ]
+  

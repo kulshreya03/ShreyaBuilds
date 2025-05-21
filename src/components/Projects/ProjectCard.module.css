@@ -12,6 +12,7 @@
 
 .image {
   margin-bottom: 1.6rem;
+  border-radius: 1rem;
 }
 
 .title {
@@ -23,6 +24,7 @@
   margin-top: 0.4rem;
   font-size: 1.6rem;
   font-weight: 400;
+  text-align: justify;
 }
 
 .skills {

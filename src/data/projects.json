@@ -1,25 +1,25 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "./assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "title": "CareerQuest",
+      "imageSrc": "./assets/projects/careerQuest.jpg",
+      "description": "Built a responsive website enabling a hands-free experience with voice command functionality via the Web-Speech API.",
+      "skills": ["HTML", "CSS", "JavaScript"  ],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "title": "Project B",
-      "imageSrc": "./assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
+      "title": "AttendEase",
+      "imageSrc": "./assets/projects/attendEase.jpg",
+      "description": "Developed a web-based platform to digitalize event registration and attendance tracking with secure authentication.",
+      "skills": ["React", "Express", "Node", "MongoDB"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "title": "Project C",
+      "title": "MetaMask Login System",
       "imageSrc": "./assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "description": "Developed a decentralized auth system that enables userlogin via MetaMask wallet using Ethereum.",
+      "skills": ["NodeJS", "Express", "MetaMask"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }

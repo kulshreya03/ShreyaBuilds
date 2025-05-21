@@ -88,14 +88,14 @@
 }
   
 .historyItemDetails p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 300;
 }
   
 .historyItemDetails ul {
     margin-top: 0.37rem;
     list-style-position: inside;
-    font-size: 1.2rem;
+    font-size: 1rem;
     list-style-type: disc;
     margin-left: 1.06rem;
 }

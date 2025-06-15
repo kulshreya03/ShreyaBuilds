@@ -5,11 +5,17 @@ import { Hero } from './components/Hero/Hero'
 import { Navbar } from './components/Navbar/Navbar'
 import { Projects } from './components/Projects/Projects'
 import { Contact } from './components/Contact/Contact'
-import { motion,useScroll } from 'motion/react'
+import { motion,useScroll,useSpring } from 'motion/react'
 
 function App() {
 
   const { scrollYProgress } = useScroll() 
+  const scaleX = useSpring(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.001,
+    })
+
 
   return (
     <>
@@ -26,7 +32,7 @@ function App() {
     <motion.div
                 id="scroll-indicator"
                 style={{
-                    scaleX: scrollYProgress,
+                    scaleX,
                     position: "fixed",
                     top: 0,
                     left: 0,

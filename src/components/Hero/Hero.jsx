@@ -18,6 +18,16 @@ export const Hero = () => {
         >
             Contact Me
         </motion.a>
+        <motion.a
+        href='https://drive.google.com/file/d/1HmPEKSbAwvdg-JfsN5QNwvSUMHkjAEOM/view?usp=sharing'
+        target='_blank'
+        rel="noopener noreferrer"
+        className={styles.contactBtn}
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 0.8 }}
+        >
+          Resume
+        </motion.a>
     </div>
     <img className={styles.heroImg} src={heroImage} alt='Hero Image of me'/>
     <div className={styles.topBlur}/>
